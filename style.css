@@ -1,4 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
-div {
-    font-size: 8px;
+body {
+    background-color: #cccccc;
+}
+.menu {
+    text-align: center;
+    list-style:  none;
+}
+
+.menu li:hover {
+    background-color:  #cc9999;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    background-color: #cccc99;
+    margin: 5px;
+    padding: 3px 0 0 10px;
+    border-bottom: 3px solid black; 
 }
