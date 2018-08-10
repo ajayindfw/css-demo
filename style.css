@@ -1,30 +1,26 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
 body {
-    background-color: #cccccc;
-}
-.menu {
-    text-align: center;
-    list-style:  none;
+    background: #cccc99;
+    font-family: sans-serif;
 }
 
-.menu li:hover {
-    background-color:  #cc9999;
-}
-.menu li a {
-    text-decoration: none;
-    color: black;
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2em;
 }
 
-.menu li {
-    display: inline-block;
-    width: 150px;
-    text-align: center;
-    background-color: #cccc99;
-    margin: 5px;
-    padding: 3px 0 0 10px;
-    border-bottom: 3px solid black; 
+ol {
+    font: italic 0.98em serif;
+}
+.content {
+    background: #eeeecc;
+}
+
+.copyright {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.code {
+    font-family: monospace;
+    font-size: 0.9em;
 }
